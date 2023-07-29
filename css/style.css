@@ -1,0 +1,95 @@
+.container {
+  padding: 5%;
+  padding-top: 2%;
+}
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.container div{
+  display: block;
+}
+.boxOne{
+  position: sticky;
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 1.6vw 4vw;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  top: 1px;
+  z-index: 2;
+}
+.leftpart{
+  display: block;
+  height: 50px;
+  width: 100px;
+}
+.buttonimg1 img{
+  justify-content: space-between;
+  display: flex;
+  height: 50px;
+  width: 50px;
+  margin-right: 25px;
+  position: fixed;
+}
+
+nav{
+  display: block;
+}
+header nav a {
+  margin-right: 1rem;
+  padding: 1vw;
+  font-size: 1.4em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  font-style: normal;
+
+}
+.Hero-Section{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  padding: 8vw 5vw;
+  border-radius: 10px;
+  position: relative;
+}
+.Hero-Section::before{
+  content: "";
+  background: url(../img/bg.jpg);
+  background-size: cover;
+  opacity: 0.15;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+}
+.Hero-Section div{
+  display: block;
+}
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.buttonimg1{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.rightpart img{
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  height: 500px;
+  width: 400px;
+  border-radius: 50%;
+}
+.title{
+  font-size: 1.5rem;
+  text-align: left;
+}
